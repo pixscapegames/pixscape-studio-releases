@@ -1,0 +1,125 @@
+Pixscape Studio End User License Agreement (EULA)
+Version 0.1.0
+
+Copyright (c) 2026 Pixscape Games.
+All rights reserved.
+
+IMPORTANT: PLEASE READ THIS AGREEMENT CAREFULLY BEFORE DOWNLOADING,
+INSTALLING, COPYING, OR USING PIXSCAPE STUDIO.
+
+By downloading, installing, copying, or using Pixscape Studio, you agree
+to be bound by the terms of this Agreement.
+
+1. DEFINITIONS
+
+"Software" means the Pixscape Studio application binaries, installers,
+updates, accompanying documentation, and any related materials made
+available by Pixscape Games through this repository.
+
+"Licensor" means Pixscape Games.
+
+"User" means the individual or legal entity using the Software.
+
+2. LICENSE GRANT
+
+Subject to this Agreement, Licensor grants User a limited, non-exclusive,
+non-transferable, non-sublicensable, revocable license to download,
+install, and use the Software in executable binary form for lawful
+purposes.
+
+3. RESTRICTIONS
+
+User may not, except to the extent such restriction is prohibited by
+applicable law:
+
+a. copy, modify, adapt, translate, or create derivative works of the Software;
+b. reverse engineer, decompile, disassemble, or otherwise attempt to derive
+   the source code, underlying ideas, algorithms, file formats, or
+   non-public interfaces of the Software;
+c. redistribute, sell, rent, lease, sublicense, lend, publish, or otherwise
+   make the Software available to any third party;
+d. remove, alter, or obscure any copyright, trademark, or proprietary notice;
+e. use the Software in any way that violates applicable law or the rights
+   of third parties;
+f. use the Software to develop or assist in the development of a competing
+   product by extracting non-public know-how from it.
+
+4. OWNERSHIP
+
+The Software is licensed, not sold.
+All rights, title, and interest in and to the Software, including all
+intellectual property rights, remain the exclusive property of Licensor
+and its licensors.
+
+No right to the source code is granted under this Agreement.
+
+5. UPDATES
+
+Licensor may provide updates, fixes, or new versions of the Software at
+its sole discretion.
+Unless accompanied by separate terms, such updates are governed by this
+Agreement.
+
+6. THIRD-PARTY COMPONENTS
+
+The Software may include or depend on third-party components subject to
+their own licenses and notices.
+Where required, such notices are provided in the THIRD_PARTY_NOTICES.txt
+file accompanying this distribution.
+
+Third-party components remain subject to their respective license terms.
+
+7. DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT,
+OR THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED.
+
+USER ASSUMES ALL RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE SOFTWARE.
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR SHALL NOT BE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY,
+OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, REVENUE, GOODWILL,
+OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO THE SOFTWARE OR
+THIS AGREEMENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR'S TOTAL
+AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE SOFTWARE OR THIS
+AGREEMENT SHALL NOT EXCEED THE AMOUNT PAID BY USER FOR THE SOFTWARE, OR
+ZERO IF THE SOFTWARE WAS PROVIDED FREE OF CHARGE.
+
+9. TERMINATION
+
+This Agreement terminates automatically if User fails to comply with any
+of its terms.
+
+Upon termination, User must cease all use of the Software and delete all
+copies in its possession or control.
+
+10. FEEDBACK
+
+If User provides suggestions, ideas, or feedback regarding the Software,
+Licensor may use such feedback without restriction or compensation.
+
+11. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the
+laws applicable in the jurisdiction chosen by Licensor, excluding conflict
+of law rules.
+
+12. CONTACT
+
+For support, bug reports, or licensing questions, contact:
+
+bugs@pixscape.games
+
+13. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between User and Licensor
+regarding the Software and supersedes all prior or contemporaneous oral or
+written communications on the subject.
+
+END OF TERMS
