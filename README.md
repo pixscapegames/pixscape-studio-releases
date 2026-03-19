@@ -1,0 +1,82 @@
+# Pixscape Studio Releases
+
+Public release repository for **Pixscape Studio** binaries.
+
+Pixscape Studio is a lightweight 2D game editor focused on fast iteration, tiled workflows, shaders, lights, animation, particles, and Box2D-based gameplay authoring.
+
+## Editions
+
+Pixscape Studio is available in two editions:
+
+- **Free Edition** — free to use, including for commercial use
+- **Pro Edition** — paid edition with additional features
+
+Release assets published here are clearly labeled with the edition they belong to.
+
+## Status
+
+Current public release: **0.1.0**
+
+This repository is a **distribution / release showcase** repository.
+It does **not** contain the Pixscape Studio source code.
+
+## Downloads
+
+Releases are published in the **Releases** section of this repository.
+
+Current distribution targets for 0.1.0:
+- Linux: `.deb`
+- Windows: installer package when available
+
+## Included in 0.1.0
+
+Pixscape Studio 0.1.0 focuses on the first usable MVP of the editor.
+
+Main areas included:
+- sprites
+- animations
+- particle effects
+- orthogonal tiled maps
+- shaders on sprites and animations
+- custom shader manager
+- ambient / point / cone lights
+- Box2D
+- asset import
+- preview with mouse interaction, zoom and pan
+- automatic atlas packing
+- undo / redo
+
+## Documentation
+
+Project website:
+- https://pixscape.games
+
+Documentation and how-to guides will be published on the website.
+
+## Example project
+
+An example project is provided separately and referenced from release notes / the website when available.
+
+## License
+
+Pixscape Studio is **proprietary software**.
+
+This repository publishes binaries only.
+The source code is not provided here and is not licensed under an open source license.
+
+Use of the binaries is governed by the terms in [`LICENSE.txt`](./LICENSE.txt).
+
+## Third-party notices
+
+Third-party license notices are listed in [`THIRD_PARTY_NOTICES.txt`](./THIRD_PARTY_NOTICES.txt).
+
+## Support / bugs
+
+For bug reports:
+- bugs@pixscape.games
+
+Please include:
+- Pixscape Studio version
+- operating system
+- reproduction steps
+- screenshots or logs when relevant

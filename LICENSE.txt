@@ -27,6 +27,14 @@ non-transferable, non-sublicensable, revocable license to download,
 install, and use the Software in executable binary form for lawful
 purposes.
 
+Pixscape Studio may be distributed in multiple editions, including a free edition
+and a paid edition. Unless explicitly stated otherwise for a given release asset,
+this Agreement applies to the edition distributed with that asset.
+
+Certain releases of Pixscape Studio may be designated as a free edition and may
+be used for commercial purposes, subject to this Agreement. Other releases may be
+designated as paid editions with separate commercial terms or purchase conditions.
+
 3. RESTRICTIONS
 
 User may not, except to the extent such restriction is prohibited by
