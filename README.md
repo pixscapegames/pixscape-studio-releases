@@ -1,7 +1,9 @@
-# Pixscape Studio Releases
-
-Public release repository for **Pixscape Studio** binaries.
-
+<p align="center">
+  <img src="pixscape_logo.png" alt="Pixscape logo" width="80">
+</p>
+<h1 align="center">Pixscape Studio Releases</h1>
+<p align="center"><strong>Public release repository for **Pixscape Studio** binaries.</strong></p>
+<br>
 Pixscape Studio is a lightweight 2D game editor focused on fast iteration, tiled workflows, shaders, lights, animation, particles, and Box2D-based gameplay authoring.
 
 ## Editions
