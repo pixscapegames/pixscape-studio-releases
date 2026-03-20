@@ -19,7 +19,6 @@ This release targets the **Free Edition**, which is free to use, including for c
 
 ### Platforms
 - Linux `.deb`
-- Windows `.msi`
 
 ### Website
 https://pixscape.games

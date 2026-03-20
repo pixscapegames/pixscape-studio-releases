@@ -28,7 +28,7 @@ Releases are published in the **Releases** section of this repository.
 
 Current distribution targets for 0.1.0:
 - Linux: `.deb`
-- Windows: installer package when available
+- Windows: Windows packaging is planned for a later release.
 
 ## Included in 0.1.0
 
