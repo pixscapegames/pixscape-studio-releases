@@ -1,5 +1,21 @@
-# Pixscape Studio Free 0.1.0
+# Pixscape Studio Free
+
+## Latest public release: 0.1.0
+
 First public MVP release of **Pixscape Studio Free**.
+
+### Edition
+**Free Edition** — free to use, including for commercial projects.
+
+### Platforms
+- Linux `.deb`
+
+### Website
+https://pixscape.games
+
+### Bugs / feedback
+bugs@pixscape.games
+
 ### Included in 0.1.0
 - sprites
 - animations
@@ -14,14 +30,23 @@ First public MVP release of **Pixscape Studio Free**.
 - automatic atlas packing
 - undo / redo
 
-### Edition
-This release targets the **Free Edition**, which is free to use, including for commercial projects.
+---
 
-### Platforms
-- Linux `.deb`
+## Upcoming in 0.1.1
 
-### Website
-https://pixscape.games
+### Added
+- Light layers now support parallax.
+- Light overlay rendering is now consistent with parallax.
+- Tilesets now preserve their original layout in the asset panel.
 
-### Bugs / feedback
-bugs@pixscape.games
+### Changed
+- Parallax values now use 2 decimal places.
+- Tiled imports now preserve tileset and tile metadata instead of flattening everything as generic images.
+- Tileset browsing now supports horizontal scrolling when needed to preserve the original grid layout.
+
+### Fixed
+- Fixed light layers being ignored by the parallax pipeline.
+- Fixed light icon overlay not matching rendered parallax position.
+- Fixed tiled imports losing original tileset structure in the asset browser.
+- Fixed tileset and spritesheet import spinners resetting user-entered values on validation errors.
+- Fixed tileset and spritesheet import spinner max value being limited to 256.
