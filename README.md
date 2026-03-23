@@ -17,7 +17,7 @@ Release assets published here are clearly labeled with the edition they belong t
 
 ## Status
 
-Current public release: **0.1.0**
+Current public release: **0.1.1**
 
 This repository is a **distribution / release showcase** repository.
 It does **not** contain the Pixscape Studio source code.
@@ -26,27 +26,29 @@ It does **not** contain the Pixscape Studio source code.
 
 Releases are published in the **Releases** section of this repository.
 
-Current distribution targets for 0.1.0:
+Current distribution targets for 0.1.1:
 - Linux: `.deb`
 - Windows: Windows packaging is planned for a later release.
 
-## Included in 0.1.0
+## Included in 0.1.1
 
-Pixscape Studio 0.1.0 focuses on the first usable MVP of the editor.
+Pixscape Studio 0.1.1 is the first usable MVP of the editor, designed to provide a solid foundation for 2D game creation.
 
-Main areas included:
+Current features include:
 - sprites
 - animations
 - particle effects
 - orthogonal tiled maps
-- shaders on sprites and animations
-- custom shader manager
-- ambient / point / cone lights
-- Box2D
+- shaders for sprites and animations
+- a custom shader manager
+- ambient, point, and cone lights
+- Box2D support
 - asset import
-- preview with mouse interaction, zoom and pan
+- interactive preview with mouse controls, zoom, and pan
 - automatic atlas packing
 - undo / redo
+
+Version 0.1.1 focuses on stability, core authoring workflows, and the essential building blocks needed to start creating real projects with Pixscape Studio.
 
 ## Documentation
 
