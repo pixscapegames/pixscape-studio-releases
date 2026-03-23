@@ -32,7 +32,7 @@ bugs@pixscape.games
 
 ---
 
-## Upcoming in 0.1.1
+## Included in 0.1.1 (latest)
 
 ### Added
 - Added parallax support for light layers.
