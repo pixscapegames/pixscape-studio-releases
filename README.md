@@ -2,8 +2,9 @@
   <img src="pixscape_logo.png" alt="Pixscape logo" width="80">
 </p>
 <h1 align="center">Pixscape Studio Releases</h1>
-<p align="center"><strong>Public release repository for **Pixscape Studio** binaries.</strong></p>
+<p align="center"><strong>Public release repository for Pixscape Studio binaries.</strong></p>
 <br>
+
 Pixscape Studio is a lightweight 2D game editor focused on fast iteration, tiled workflows, shaders, lights, animation, particles, and Box2D-based gameplay authoring.
 
 ## Editions
@@ -17,38 +18,62 @@ Release assets published here are clearly labeled with the edition they belong t
 
 ## Status
 
-Current public release: **0.1.1**
+Current public release: **0.1.2**
 
-This repository is a **distribution / release showcase** repository.
+This repository is a **distribution / release showcase** repository.  
 It does **not** contain the Pixscape Studio source code.
 
 ## Downloads
 
 Releases are published in the **Releases** section of this repository.
 
-Current distribution targets for 0.1.1:
+Current distribution targets for **0.1.2**:
 - Linux: `.deb`
-- Windows: Windows packaging is planned for a later release.
+- Windows: `.zip`
 
-## Included in 0.1.1
+## Included in 0.1.2
 
-Pixscape Studio 0.1.1 is the first usable MVP of the editor, designed to provide a solid foundation for 2D game creation.
+Pixscape Studio 0.1.2 expands the editor with stronger tiled workflows, broader Box2D authoring, better import ergonomics, and improved day-to-day usability.
 
-Current features include:
-- sprites
-- animations
-- particle effects
-- orthogonal tiled maps
-- shaders for sprites and animations
-- a custom shader manager
-- ambient, point, and cone lights
-- Box2D support
-- asset import
-- interactive preview with mouse controls, zoom, and pan
-- automatic atlas packing
-- undo / redo
+### Main highlights
+- improved import management with new layout, filtering, directory import, and better error handling
+- copy / cut / paste
+- alignment toolbar
+- isometric tiled map support
+- tiled tile transformations:
+    - flip horizontal
+    - flip vertical
+    - rotate left
+    - rotate right
+- transformed tile ghost preview in Tiled mode
+- tiled animations support
+- extended Box2D joint editing:
+    - Distance
+    - Revolute
+    - Prismatic
+    - Wheel
+    - Friction
+    - Motor
+    - Weld
+    - Pulley
+    - Gear
+- better layer tooling, including applying visibility/lock checkboxes to all layers
+- canvas selection now stays aligned with the Item Tree by activating the corresponding layer automatically
 
-Version 0.1.1 focuses on stability, core authoring workflows, and the essential building blocks needed to start creating real projects with Pixscape Studio.
+### Improvements
+- faster Tiled Fill on large maps
+- smoother Tiled brush painting during fast mouse movement
+- smoother preview panning on tiled maps
+- tile transformations preserved across brush, rect, and fill tools
+- undo / redo in Tiled mode fully restores transformed tiles
+- tiled preview reflects the exact final tile transform before painting
+
+### Fixes
+- entity names could become non-editable
+- scenes could be saved when changing scenes even if they were not dirty
+- images smaller than the 2048×2048 limit could be rejected during import
+- `.json.bak` files were not deleted when deleting a scene
+- Tiled Fill could ignore tile transformations when replacing tiles
 
 ## Documentation
 
@@ -59,13 +84,13 @@ Documentation and how-to guides will be published on the website.
 
 ## Example project
 
-An example project is provided separately and referenced from release notes / the website when available.
+An example project is provided separately and referenced from release notes or the website when available.
 
 ## License
 
 Pixscape Studio is **proprietary software**.
 
-This repository publishes binaries only.
+This repository publishes binaries only.  
 The source code is not provided here and is not licensed under an open source license.
 
 Use of the binaries is governed by the terms in [`LICENSE.txt`](./LICENSE.txt).
