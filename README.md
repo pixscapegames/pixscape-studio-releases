@@ -1,26 +1,22 @@
 <p align="center">
   <img src="pixscape_logo.png" alt="Pixscape logo" width="80">
 </p>
+
 <h1 align="center">Pixscape Studio Releases</h1>
 <p align="center"><strong>Public release repository for Pixscape Studio binaries.</strong></p>
 <br>
 
 Pixscape Studio is a lightweight 2D game editor focused on fast iteration, tiled workflows, shaders, lights, animation, particles, and Box2D-based gameplay authoring.
 
-## Editions
-
-Pixscape Studio is available in two editions:
-
-- **Free Edition** — free to use, including for commercial use
-- **Pro Edition** — paid edition with additional features
-
-Release assets published here are clearly labeled with the edition they belong to.
-
 ## Status
 
 Current public release: **0.1.2**
 
-This repository is a **distribution / release showcase** repository.  
+Pixscape Studio is currently available **free of charge**.
+
+Pixscape Studio is still evolving and should currently be considered an early public release.
+
+This repository is a **distribution repository** for Pixscape Studio binaries.  
 It does **not** contain the Pixscape Studio source code.
 
 ## Downloads
@@ -41,23 +37,23 @@ Pixscape Studio 0.1.2 expands the editor with stronger tiled workflows, broader 
 - alignment toolbar
 - isometric tiled map support
 - tiled tile transformations:
-    - flip horizontal
-    - flip vertical
-    - rotate left
-    - rotate right
+  - flip horizontal
+  - flip vertical
+  - rotate left
+  - rotate right
 - transformed tile ghost preview in Tiled mode
 - tiled animations support
 - extended Box2D joint editing:
-    - Distance
-    - Revolute
-    - Prismatic
-    - Wheel
-    - Friction
-    - Motor
-    - Weld
-    - Pulley
-    - Gear
-- better layer tooling, including applying visibility/lock checkboxes to all layers
+  - Distance
+  - Revolute
+  - Prismatic
+  - Wheel
+  - Friction
+  - Motor
+  - Weld
+  - Pulley
+  - Gear
+- better layer tooling, including applying visibility and lock checkboxes to all layers
 - canvas selection now stays aligned with the Item Tree by activating the corresponding layer automatically
 
 ### Improvements
@@ -75,23 +71,31 @@ Pixscape Studio 0.1.2 expands the editor with stronger tiled workflows, broader 
 - `.json.bak` files were not deleted when deleting a scene
 - Tiled Fill could ignore tile transformations when replacing tiles
 
+## Runtime
+
+Pixscape Studio is built around **Pixscape Runtime**, which is published separately as an open-source runtime library.
+
+- Runtime repository: https://github.com/pixscapegames/pixscape-runtime
+- Website and documentation: https://pixscape.games
+
+Pixscape Studio and Pixscape Runtime do not have the same role:
+
+- **Pixscape Studio** is the editor application and is distributed here as proprietary software
+- **Pixscape Runtime** is the game-side runtime library and is published separately under its own open-source license
+
 ## Documentation
 
 Project website:
 - https://pixscape.games
 
-Documentation and how-to guides will be published on the website.
-
-## Example project
-
-An example project is provided separately and referenced from release notes or the website when available.
+Documentation and guides are published on the website.
 
 ## License
 
 Pixscape Studio is **proprietary software**.
 
 This repository publishes binaries only.  
-The source code is not provided here and is not licensed under an open source license.
+The source code is not provided here and is not licensed under an open-source license.
 
 Use of the binaries is governed by the terms in [`LICENSE.txt`](./LICENSE.txt).
 
