@@ -7,6 +7,8 @@
 
 **Lightweight multiplatform 2D game studio powered by Pixscape Runtime.**
 
+Pixscape Studio is free to use.
+
 🌐 **Website:** https://pixscape.games/  
 📘 **Documentation:** https://pixscape.games/docs  
 📝 **Changelog:** [CHANGELOG.md](CHANGELOG.md)
@@ -49,7 +51,7 @@ Full documentation is available on the official website:
 
 ## License
 
-Pixscape Studio is proprietary software distributed as binaries only.
+Pixscape Studio is proprietary software distributed as free binaries.
 
 See:
 - [LICENSE.txt](LICENSE.txt)
