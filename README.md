@@ -1,115 +1,56 @@
-<p align="center">
-  <img src="pixscape_logo.png" alt="Pixscape logo" width="80">
-</p>
+<img src="pixscape_logo.png" alt="Pixscape logo" width="80">
 
-<h1 align="center">Pixscape Studio Releases</h1>
-<p align="center"><strong>Public release repository for Pixscape Studio binaries.</strong></p>
-<br>
+# Pixscape Studio
 
-Pixscape Studio is a lightweight 2D game editor focused on fast iteration, tiled workflows, shaders, lights, animation, particles, and Box2D-based gameplay authoring.
+[![Release](https://img.shields.io/badge/release-0.1.2-orange.svg)](#)
+[![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20Linux%20%7C%20HTML5-green.svg)](#)
 
-## Status
+**Lightweight multiplatform 2D game studio powered by Pixscape Runtime.**
 
-Current public release: **0.1.2**
+🌐 **Website:** https://pixscape.games/  
+📘 **Documentation:** https://pixscape.games/docs  
+📝 **Changelog:** [CHANGELOG.md](CHANGELOG.md)
 
-Pixscape Studio is currently available **free of charge**.
+![Pixscape Studio](docs/images/pixscape-studio.png)
 
-Pixscape Studio is still evolving and should currently be considered an early public release.
+## What is Pixscape Studio?
 
-This repository is a **distribution repository** for Pixscape Studio binaries.  
-It does **not** contain the Pixscape Studio source code.
+Pixscape Studio is a lightweight 2D game editor built on top of **LibGDX** and **Artemis-ODB ECS**.
 
-## Downloads
+It focuses on:
+- Fast iteration workflows
+- High-performance ECS rendering
+- Tiled maps and physics authoring
+- Lights, shaders, animations and particles
+- Desktop + HTML5/WebGL2 workflows
+- Integrated runtime preview
+- Reusable prefab assets
 
-Releases are published in the **Releases** section of this repository.
+Pixscape Studio is designed to stay lightweight and production-oriented while keeping the workflow simple and approachable.
 
-Current distribution targets for **0.1.2**:
-- Linux: `.deb`
-- Windows: `.zip`
+## Current distributions
 
-## Included in 0.1.2
+- Windows (`.zip`)
+- Linux (`.deb`)
 
-Pixscape Studio 0.1.2 expands the editor with stronger tiled workflows, broader Box2D authoring, better import ergonomics, and improved day-to-day usability.
+## Pixscape Runtime
 
-### Main highlights
-- improved import management with new layout, filtering, directory import, and better error handling
-- copy / cut / paste
-- alignment toolbar
-- isometric tiled map support
-- tiled tile transformations:
-  - flip horizontal
-  - flip vertical
-  - rotate left
-  - rotate right
-- transformed tile ghost preview in Tiled mode
-- tiled animations support
-- extended Box2D joint editing:
-  - Distance
-  - Revolute
-  - Prismatic
-  - Wheel
-  - Friction
-  - Motor
-  - Weld
-  - Pulley
-  - Gear
-- better layer tooling, including applying visibility and lock checkboxes to all layers
-- canvas selection now stays aligned with the Item Tree by activating the corresponding layer automatically
+Pixscape Studio is powered by the open-source Pixscape Runtime:
 
-### Improvements
-- faster Tiled Fill on large maps
-- smoother Tiled brush painting during fast mouse movement
-- smoother preview panning on tiled maps
-- tile transformations preserved across brush, rect, and fill tools
-- undo / redo in Tiled mode fully restores transformed tiles
-- tiled preview reflects the exact final tile transform before painting
+➡️ https://github.com/pixscapegames/pixscape-runtime
 
-### Fixes
-- entity names could become non-editable
-- scenes could be saved when changing scenes even if they were not dirty
-- images smaller than the 2048×2048 limit could be rejected during import
-- `.json.bak` files were not deleted when deleting a scene
-- Tiled Fill could ignore tile transformations when replacing tiles
-
-## Runtime
-
-Pixscape Studio is built around **Pixscape Runtime**, which is published separately as an open-source runtime library.
-
-- Runtime repository: https://github.com/pixscapegames/pixscape-runtime
-- Website and documentation: https://pixscape.games
-
-Pixscape Studio and Pixscape Runtime do not have the same role:
-
-- **Pixscape Studio** is the editor application and is distributed here as proprietary software
-- **Pixscape Runtime** is the game-side runtime library and is published separately under its own open-source license
+The runtime is available separately for developers who want direct engine-level access and full LibGDX integration.
 
 ## Documentation
 
-Project website:
-- https://pixscape.games
+Full documentation is available on the official website:
 
-Documentation and guides are published on the website.
+📘 https://pixscape.games/docs
 
 ## License
 
-Pixscape Studio is **proprietary software**.
+Pixscape Studio is proprietary software distributed as binaries only.
 
-This repository publishes binaries only.  
-The source code is not provided here and is not licensed under an open-source license.
-
-Use of the binaries is governed by the terms in [`LICENSE.txt`](./LICENSE.txt).
-
-## Third-party notices
-
-Third-party license notices are listed in [`THIRD_PARTY_NOTICES.txt`](./THIRD_PARTY_NOTICES.txt).
-
-## Support / bugs
-
-For bug reports:
-- bugs@pixscape.games
-
-Please include:
-- Pixscape Studio version
-- operating system
-- reproduction steps
-- screenshots or logs when relevant
+See:
+- [LICENSE.txt](LICENSE.txt)
+- [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)
