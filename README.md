@@ -10,8 +10,7 @@
 Pixscape Studio is free to use.
 
 🌐 **Website:** https://pixscape.games/  
-📘 **Documentation:** https://pixscape.games/docs  
-📝 **Changelog:** [CHANGELOG.md](CHANGELOG.md)
+📘 **Documentation:** https://pixscape.games/docs
 
 ![Pixscape Studio](docs/images/pixscape-studio.png)
 
