@@ -2,7 +2,7 @@
 
 # Pixscape Studio
 
-[![Release](https://img.shields.io/badge/release-0.1.4-orange.svg)](#)
+[![Release](https://img.shields.io/badge/release-0.1.6-orange.svg)](#)
 [![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20Linux%20%7C%20HTML5-green.svg)](#)
 
 **Lightweight multiplatform 2D game studio powered by Pixscape Runtime.**
