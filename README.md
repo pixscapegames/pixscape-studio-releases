@@ -1,84 +1,58 @@
 <img src="pixscape_logo.png" alt="Pixscape logo" width="80">
 
-# Pixscape Studio
+# Pixscape Studio Releases — Legacy Repository
 
-[![Release](https://img.shields.io/badge/release-0.1.6-orange.svg)](#)
-[![Distributions](https://img.shields.io/badge/distributions-Windows%20%7C%20Linux-green.svg)](#)
-[![Runtime](https://img.shields.io/badge/runtime-pixscape--runtime-blue.svg)](https://github.com/pixscapegames/pixscape-runtime)
+> Pixscape Studio Free is now open source under the Apache License 2.0.
 
-**Lightweight multiplatform 2D game studio powered by Pixscape Runtime.**
+The current Pixscape Studio Free source code and releases are now available here:
 
-Pixscape Studio is free to use.
+➡️ **Pixscape Studio Free:** https://github.com/pixscapegames/pixscape-studio-free
 
-🌐 **Website:** https://pixscape.games/
-📘 **Documentation:** https://pixscape.games/docs
-⚙️ **Runtime:** https://github.com/pixscapegames/pixscape-runtime
+This repository is kept as a legacy release archive for older Pixscape Studio binary distributions.
 
-![Pixscape Studio](docs/images/pixscape-studio.png)
+## Current project
 
-## Overview
+Pixscape Studio Free is now the public open-source foundation of Pixscape.
 
-Pixscape Studio is a lightweight 2D game editor built on top of **LibGDX** and **Artemis-ODB ECS**.
+* **Studio Free source code:** https://github.com/pixscapegames/pixscape-studio-free
+* **Pixscape Runtime:** https://github.com/pixscapegames/pixscape-runtime
+* **Website:** https://pixscape.games/
+* **Documentation:** https://pixscape.games/docs
 
-It is designed for fast iteration, practical 2D scene authoring, and direct integration with Pixscape Runtime.
+## What changed?
 
-Pixscape Studio focuses on:
+The Pixscape Runtime was already open source.
 
-* Tiled map authoring
-* 2.5D spatial scene setup
-* Physics authoring
-* Sprites, animations, particles, lights, and shaders
-* Runtime preview
-* Prefab assets
-* Desktop, Android, and HTML5/WebGL2 project workflows
+Pixscape Studio Free is now open source too.
 
-The goal is to keep the editor simple, lightweight, and production-oriented while still giving developers full access to the underlying LibGDX runtime.
+This means developers can inspect the editor code, build it, modify it, fork it if necessary, and use it as a real foundation for real projects.
 
-## Current release
+Pixscape Studio Free is not a trial version.
 
-**Pixscape Studio 0.1.6** improves spatial editing, asset management, project workflow, and diagnostics.
+You can use Pixscape Studio Free to build complete games, including commercial games, with no Pixscape royalties, no runtime fees, and no hidden export fees.
 
-Highlights include:
+## Pixscape Free and Pixscape Pro
 
-* Improved 2.5D spatial block editing
-* Rectangular spatial volume selections
-* Spatial Rules v2 authoring support
-* Studio Profiler diagnostics
-* Recent projects menu
-* Multi-selection and multi-delete support in the Assets panel
-* Improved project save behavior
-* Improved tileset browsing layout
+Pixscape Free is the foundation.
 
-See the GitHub release notes for the full changelog.
+Pixscape Pro will be a separate optional edition focused on advanced production tools. Pro exists to help fund Pixscape's long-term development. It does not replace, restrict, or weaken Pixscape Studio Free.
 
-## Downloads
+## Legacy releases
 
-Current distributions:
+Older binary releases may remain available in this repository for historical reference.
 
-* Windows (`.zip`)
-* Linux (`.deb`)
+For new users and new projects, use the current open-source Pixscape Studio Free repository:
 
-Download the latest build from the GitHub Releases page.
-
-## Pixscape Runtime
-
-Pixscape Studio is powered by the open-source **Pixscape Runtime**:
-
-https://github.com/pixscapegames/pixscape-runtime
-
-The runtime can also be used directly by developers who want engine-level access, LibGDX integration, and full control over their game code.
-
-## Documentation
-
-Full documentation is available on the official website:
-
-https://pixscape.games/docs
+➡️ https://github.com/pixscapegames/pixscape-studio-free
 
 ## License
 
-Pixscape Studio is proprietary software distributed as free binaries.
+Pixscape Studio Free source code is released under the **Apache License 2.0** in the new public repository:
 
-See:
+➡️ https://github.com/pixscapegames/pixscape-studio-free
 
-* [LICENSE.txt](LICENSE.txt)
-* [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)
+Pixscape Runtime is also released under the **Apache License 2.0**:
+
+➡️ https://github.com/pixscapegames/pixscape-runtime
+
+Legacy binary releases in this repository are no longer the recommended way to get Pixscape Studio Free.
